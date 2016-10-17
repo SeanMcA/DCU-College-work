@@ -1,0 +1,11 @@
+CREATE TRIGGER `putUserInLeague` AFTER INSERT ON `league`
+ FOR EACH ROW INSERT INTO league_members (league_id, user_id)
+SELECT league_id, created_by
+FROM league AS l
+WHERE l.created_by = NEW.created_by
+AND league_id = NEW.league_id
+AND NOT EXISTS(SELECT lm.league_id
+FROM league_members AS lm
+JOIN league AS l
+WHERE lm.league_id = l.league_id
+AND l.league_id = NEW.league_id)

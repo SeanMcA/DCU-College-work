@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Start of LL 1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/sky_background">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/barLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity = "center"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textSize="25sp"
+                android:gravity = "center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/toolbar_title" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:background="@drawable/blank_button"
+        android:onClick="goToLogin"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/Register"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:background="@drawable/blank_button"
+        android:onClick="goToRegister"/>
+
+
+
+
+    <Button
+        android:id="@+id/gotToAfterLoginGuest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/Continue_as_guest"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:background="@drawable/blank_button"
+        android:onClick="goToAfterLoginGuest"/>
+
+
+
+    <Button
+        android:id="@+id/gotToTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/Tutorial"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:background="@drawable/blank_button"
+        android:onClick="goToTutorial"/>
+
+
+
+
+</LinearLayout>
+

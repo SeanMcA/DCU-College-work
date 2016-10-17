@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--Start of LL 1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sky_background">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/barLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="150"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray">
+    </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp">
+    </View>
+
+    <TextView
+        android:id="@+id/selected_course"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff33b5e5"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray">
+    </View>
+
+
+
+
+    <TextView
+        android:id="@+id/handicap"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/select_your_handicap" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </View>
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/date"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </View>
+
+
+
+    <Button
+        android:id="@+id/startNewRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CONTINUE"
+        android:onClick="putInfoInDB"/>
+
+
+</LinearLayout>
+
+

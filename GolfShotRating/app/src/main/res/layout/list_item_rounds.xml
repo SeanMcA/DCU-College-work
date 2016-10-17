@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <TextView
+        android:id="@+id/courseName"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center_vertical"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/roundDate"
+        android:layout_below="@+id/courseName"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="league type " />
+
+    <!--
+    <ImageView
+        android:id="@+id/exportIcon"
+        android:layout_alignParentRight="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    -->
+
+    <!-- Arrow symbol -->
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text=">"/>
+
+
+</RelativeLayout>

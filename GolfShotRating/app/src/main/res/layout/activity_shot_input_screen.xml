@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--Start of LL 1-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d4d4d4"
+        android:orientation="vertical">
+
+        <!--Start of LL 2...Top Buttons-->
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/gps_image"
+                        android:src="@drawable/gps_red"
+                        android:layout_weight="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                     <Button
+                         android:id="@+id/green"
+                         android:layout_width="0dp"
+                         android:layout_weight="0.9"
+                         android:layout_height="40dp"
+                         android:layout_marginTop="5dp"
+                         android:layout_marginLeft="5dp"
+                         android:layout_marginRight="5dp"
+                         android:background="#FF99CC00"
+                         android:text="@string/ON_THE_GREEN"
+                         android:onClick="goToGreen"/>
+
+                </LinearLayout>
+
+
+
+                 <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical">
+
+
+                     <Button
+                         android:id="@+id/out_of_bounds"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="@string/PENALTY_DROP"
+                         android:background="#FF99CC00"
+                         android:onClick="addPenaltyShot"/>
+
+
+                     <TextView
+                         android:id="@+id/distanceToGreen"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                     <TextView
+                         android:id="@+id/accuracy"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                 </LinearLayout>
+
+
+
+
+        </LinearLayout><!--End of LL 2-->
+
+
+        <!--Start of LL 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+
+                <!--Start of LL 4-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/driver"
+                            android:text="@string/TEE_SHOT_DRIVER"
+                            android:textColor="#ffffff"
+                            android:background="@drawable/drivercrop"
+                            android:onClick="buttonOnClick"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:gravity="bottom|center"
+                            android:layout_weight="1"/>
+
+
+                        <Button
+                            android:id="@+id/iron"
+                            android:text="@string/TEE_SHOT_IRON"
+                            android:textColor="#ffffff"
+                            android:onClick="buttonOnClick"
+                            android:background="@drawable/ironcrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:gravity="bottom|center"
+                            android:layout_weight="1"/>
+
+
+
+                </LinearLayout><!--End of LL 4-->
+
+
+
+                <!--Start of LL 5-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/hole_number"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp" />
+
+
+                        <Button
+                            android:id="@+id/fairway"
+                            android:text="@string/FAIRWAY"
+                            android:textColor="#ffffff"
+                            android:onClick="buttonOnClick"
+                            android:background="@drawable/fairway_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                </LinearLayout><!--End of LL 5-->
+
+                <!--Start of LL 6-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/right_trees"
+                            android:text="@string/TREES"
+                            android:textColor="#ffffff"
+                            android:onClick="buttonOnClick"
+                            android:background="@drawable/trees_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
+
+                        <Button
+                            android:id="@+id/right_bunker"
+                            android:text="@string/BUNKER"
+                            android:textColor="#ffffff"
+                            android:background="@drawable/golf_bunker2"
+                            android:onClick="buttonOnClick"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:gravity="bottom|center"
+                            android:layout_weight="1"/>
+
+
+                        <Button
+                            android:id="@+id/right_rough"
+                            android:text="@string/ROUGH"
+                            android:textColor="#ffffff"
+                            android:onClick="buttonOnClick"
+                            android:background="@drawable/rough"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"/>
+
+                </LinearLayout><!--End of LL 6-->
+
+
+            </LinearLayout><!--End of LL 3-->
+
+
+
+    </LinearLayout><!--End of LL 1-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

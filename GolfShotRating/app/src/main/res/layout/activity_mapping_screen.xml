@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="com.example.sitting_room.GolfShotRating.MappingScreen">
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sky_background"  >
+
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/mappingText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/mappingText"/>
+
+    </ScrollView>
+
+        <Button
+            android:id="@+id/mapGreenButton"
+            android:text="@string/I_will_tag_the_greens"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:onClick="mapGreenClicked"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/NOTmapGreenButton"
+            android:text="@string/I_do_not_want_to_tag_the_greens"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:onClick="NOTmapGreenClicked"
+            android:layout_weight="1" />
+
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

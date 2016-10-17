@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Golf Shot Rating</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hole_summary">Hole Summary</string>
+    <string name="title_activity_shot_input_screen">Input Shots</string>
+    <string name="title_activity_round_summary">Round Summary</string>
+    <string name="title_activity_list_of_rounds">List of Rounds</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_new_round">New Round</string>
+    <string name="title_activity_tee_shot">TeeShot</string>
+    <string name="title_activity_on_green">On the Green</string>
+    <string name="title_activity_league">Leagues</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_after_login_guest">AfterLoginGuest</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_individual_league"> </string>
+    <string name="title_activity_create_new_league">Create a New League</string>
+    <string name="title_activity_web_register">Register</string>
+    <string name="title_activity_join_league">Join a League</string>
+
+
+    <string name="loginResults">Login details are incorrect.</string>
+    <string name="Hole">HOLE </string>
+    <string name="Shot"> - SHOT </string>
+    <string name="Passwords_do_not_match">Passwords do not match.</string>
+    <string name="Username_is_already_used">Username is already used.</string>
+    <string name="The_Email_address_has_already_been_used">The Email address has already been used.</string>
+    <string name="You_have_been_registered">You have been registered.</string>
+    <string name="Distance_to_Green">Distance to Green:</string>
+    <string name="yards"> yards.</string>
+
+    <string name="rounded_Driving_Rating">%2$d</string>
+
+    <string name="List_of_Rounds">List of Rounds</string>
+    <string name="New_Round">New Round</string>
+    <string name="Leagues">Leagues</string>
+    <string name="Logout">Logout</string>
+    <string name="CREATE_YOUR_NEW_LEAGUE_HERE">CREATE YOUR NEW LEAGUE HERE.</string>
+    <string name="SELECT_LEAGUE_TYPE">SELECT LEAGUE TYPE:</string>
+    <string name="SELECT_LEAGUE_DURATION">SELECT LEAGUE DURATION:</string>
+    <string name="ENTER_YOUR_LEAGUE_NAME">ENTER YOUR LEAGUE NAME:</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="Enter_the_Email_address">Enter the Email address you Registered with:</string>
+    <string name="Send_New_Details">Send New Details</string>
+
+    <string name="HOLE_NUMBER_IS">HOLE NUMBER IS:</string>
+    <string name="GO_TO_NEXT_HOLE">GO TO NEXT HOLE</string>
+    <string name="END_ROUND">END ROUND</string>
+
+    <string name="HOLE1">HOLE 1</string>
+    <string name="HOLE2">HOLE 2</string>
+    <string name="HOLE3">HOLE 3</string>
+    <string name="HOLE4">HOLE 4</string>
+    <string name="HOLE5">HOLE 5</string>
+    <string name="HOLE6">HOLE 6</string>
+    <string name="HOLE7">HOLE 7</string>
+    <string name="HOLE8">HOLE 8</string>
+    <string name="HOLE9">HOLE 9</string>
+    <string name="HOLE10">HOLE 10</string>
+    <string name="HOLE11">HOLE 11</string>
+    <string name="HOLE12">HOLE 12</string>
+    <string name="HOLE13">HOLE 13</string>
+    <string name="HOLE14">HOLE 14</string>
+    <string name="HOLE15">HOLE 15</string>
+    <string name="HOLE16">HOLE 16</string>
+    <string name="HOLE17">HOLE 17</string>
+    <string name="HOLE18">HOLE 18</string>
+    <string name="NEXT_HOLE">GO TO NEXT HOLE</string>
+
+
+    <string name="Enter_League_Code">Enter League Code</string>
+
+    <string name="CREATE_NEW_LEAGUE">CREATE NEW LEAGUE</string>
+    <string name="JOIN_LEAGUE">JOIN LEAGUE</string>
+
+    <string name="Enter_Username">Enter Username</string>
+    <string name="Forgot_login_details">Forgot login details</string>
+    <string name="LOGIN">LOGIN</string>
+
+    <string name="Register">Register</string>
+    <string name="Continue_as_guest">Continue as guest</string>
+    <string name="Tutorial">Tutorial</string>
+
+    <string name="I_will_tag_the_greens">I will tag the greens.</string>
+    <string name="I_do_not_want_to_tag_the_greens">I do not want to tag the greens.</string>
+    <string name="Enter_Password">Enter Password</string>
+
+
+    <string name="select_your_handicap">Please select your handicap from the list below:</string>
+    <string name="CONTINUE">CONTINUE</string>
+
+    <string name="Enter_Email">Enter Email</string>
+    <string name="Confirm_Password">Confirm Password</string>
+
+    <string name="DRIVING_RATING">DRIVING RATING IS:</string>
+    <string name="LONG_GAME_RATING">LONG GAME (250 – 100YDS) RATING:</string>
+    <string name="PUTTING_RATING">PUTTING RATING IS:</string>
+    <string name="SHORT_GAME_RATING">SHORT GAME RATING:</string>
+    <string name="AWFUL_SHOTS">NUMBER OF AWFUL SHOTS:</string>
+    <string name="Total_Strokes_Gained">Total Strokes Gained:</string>
+    <string name="RETURN_TO_LIST_OF_ROUNDS">RETURN TO LIST OF ROUNDS</string>
+    <string name="EXPORT_ROUND">EXPORT ROUND</string>
+    <string name="DELETE_ROUND">DELETE ROUND</string>
+    RETURN TO LIST OF ROUNDS
+
+    <string name="ON_THE_GREEN"> ON THE GREEN</string>
+    <string name="PENALTY_DROP">O.B / PENALTY DROP</string>
+
+    <string name="TEE_SHOT_DRIVER">TEE SHOT - DRIVER</string>
+    <string name="TEE_SHOT_IRON">TEE SHOT - IRON</string>
+    <string name="FAIRWAY">FAIRWAY</string>
+    <string name="TREES">TREES</string>
+    <string name="BUNKER">BUNKER</string>
+    <string name="ROUGH">ROUGH</string>
+
+    <string name="JOIN">JOIN</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="tutorial">Welcome to Golf Shot Rating.
+This app will rate your shots and also enable you to enter leagues where you can compete against your friends or other golfers anywhere in the
+        world. In these leagues you can compete in areas such as Driving, Long Game (250 - 100 yards from the pin), short game (100 yards and
+        in) and putting.
+When you start up the app you are presented with a screen with options to login (if you have already registered),
+Register, Continue as a guest or view the Tutorial.
+The Login and register buttons are as you would expect. The Continue as Guest button allows you to use the app to rate your shots and it
+        will store your rounds on the phone but you will not be able to export your rounds or participate in any leagues.
+Once you login or Continue as Guest you will come to a screen with Options of: List of rounds (here you can review the rounds you have
+        saved on the phone), New Round (here you will play your round of golf), Leagues (here you can see what leagues you are in and
+        create or enter other leagues), and Logout.
+When you select the New Round option you are brought to a screen where courses near you will be displayed. You select the course you are
+        playing and then select your handicap and finally press the Continue button.
+You will now be brought to the main shot input screen. Until the phone gets an good GPS accuracy the buttons will be disabled and the GPS
+        icon will be red. When a good GPS signal is received the GPS icon will turn green and all buttons will be enabled. To input your
+        shots you need to press a button that represents where you are hitting your shot from. EG on the tee box you select either
+        TEE SHOT DRIVER or TEE SHOT IRON. If your tee shot lands in a bunker you go to your ball and then press BUNKER.
+        If this shot lands on the fairway you go to your ball and press FAIRWAY. When you are on the green you press the ON GREEN button.
+        This does not enter a shot but takes you to a screen with a large image of a golf green on it. To enter a putt you simple swipe
+        across the screen and the device will record your putt (the device will vibrate to let you know it has recorded the shot).
+        The reason for this input method is that golfers preferred not to have to take their phones out and click a button while on
+        the putting green as it slowed play, they prefer to put the phone in their back pocket and simple swipe their thumb across
+        the screen when over their golf ball. You do this for each putt and when you sink the last putt you finally need to record
+        the location of the pin. You do this by standing beside the pin and pressing the FLAG image in the upper right corner of the screen.
+        You will then be taken to a screen with a summary of how you did on that hole (you can rotate this summary screen and it will
+        bring up a summary of each hole you have played). When you have finished the round you will be taken to a screen with a summary
+        of your round.
+    </string>
+    <string name="title_activity_forgot_details_screen">ForgotDetailsScreen</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_test">testing</string>
+    <string name="title_activity_mapping_screen">Mapping Screen</string>
+    <string name="mappingText">The course you have selected has not had the greens tagged.
+        This means that you will not get the distance to the center of the green for each hole. All other functionality
+        is still there.
+    You now have the option of tagging the greens or not. The greens only need to be tagged once
+        and then, when you or any other golfer play this course they will be able to get accurate distances to the
+    center of the green. To tag the greens you simply need to click on, \'I will tag the greens\' button below.
+        If you do this an icon will appear in the top right corner of the screen when you are on the green.
+    You simply need to click this icon when you are in the CENTER of the green and that green is tagged.
+    If you are tagging greens you can still record putts on the green and input the location of the flag as normal.
+        You can tag the center of the green when before you putt or betwenn putts but if you are tagging the
+        center of the green you must do it before you click on the \'flag\' icon as this ends the hole.
+    If you do not wish to tag the greens then simply click on, \'I do not want to tag the greens\' and you
+        can play your round as normal.</string>
+
+</resources>

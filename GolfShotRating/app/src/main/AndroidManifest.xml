@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sitting_room.GolfShotRating" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:logo="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.HoleSummary"
+            android:label="@string/title_activity_hole_summary"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.ShotInputScreen"
+            android:label="@string/title_activity_shot_input_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.RoundSummary"
+            android:label="@string/title_activity_round_summary"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.ListOfRounds"
+            android:label="@string/title_activity_list_of_rounds"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.NewRound"
+            android:label="@string/title_activity_new_round"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.OnGreen"
+            android:label="@string/title_activity_on_green"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.ListOfLeagues"
+            android:label="@string/title_activity_league"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.Login"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.AfterLoginGuest"
+            android:label=""
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.Tutorial"
+            android:label="@string/title_activity_tutorial"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.IndividualLeague"
+            android:label="@string/title_activity_individual_league"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.CreateNewLeague"
+            android:label="@string/title_activity_create_new_league"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.RegisterScreen"
+            android:label="@string/title_activity_web_register"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sitting_room.GolfShotRating.AfterLoginGuest" />
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.JoinLeague"
+            android:label="@string/title_activity_join_league"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.ForgotDetailsScreen"
+            android:label="@string/title_activity_forgot_details_screen"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.sitting_room.GolfShotRating.MappingScreen"
+            android:label="@string/title_activity_mapping_screen"
+            android:parentActivityName="com.example.sitting_room.GolfShotRating.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

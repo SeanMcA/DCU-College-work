@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:background="@drawable/sky_background">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/barLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <EditText
+        android:id="@+id/enter_league_code"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:inputType="number"
+        android:textSize="30sp"
+        android:layout_height="60dp"
+        android:hint="@string/Enter_League_Code" />
+
+
+
+    <TextView
+        android:id="@+id/joinResult"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/JOIN"
+        android:onClick="submitLeagueCode"/>
+
+
+
+
+
+
+</LinearLayout>
